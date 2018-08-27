@@ -20,6 +20,9 @@ const User = new GraphQLObjectType({
         name: {
             type: GraphQLString
         },
+        age: {
+            type: GraphQLInt
+        }
     }
 });
 //
